@@ -1,0 +1,433 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+<style>
+html { height: 100%; } body { margin: 0; height: 100%; } 
+#outer-container { display:table-cell; background-color: #DEE4E7; width: 100%; height: 65%;  border: none; color: grey;} 
+
+#sidebar {float:left; height: 810px; padding:none; text-align: top; text-color: black; text-size: 20px; background-color: #073405;  width: 15%;  border: none; } 
+
+
+
+#header { background-color: #fff; padding:none; height: 5em; border-bottom: 1px solid grey;}
+#nav { max-width: 100%; padding-bottom: 1em ; height: 6em; position:relative; left: 36px;
+}
+.nav ul { list-style-type: none; padding: 0 ; }
+.nav ul a { text-decoration: none; }
+
+#article { border-radius: 5px;	 border-top : 1px solid grey; width:76%; float:right; margin:  10px 10px 0; position: relative; top: 0.4em; margin-bottom: none; height: 650px; background-color:white;  padding:2em;	}
+
+.searchbox_1 {height:40px;
+position: relative;
+left: 1em;
+top: 1em;
+float:left;
+background-color : white ;
+padding : 10px ;
+width: 540px ;
+margin: auto ;
+-webkit-box-sizing : border-box ;
+-moz-box-sizing : border-box;
+box-sizing : border-box ;
+border-radius : 6px ;
+-webkit-box-shadow :
+0 2px 4px 0 rgba (72, 72, 72, 0.83), 0 10px 15px 0 rgba (126,126, 126, 0.12), 0 -2px 6px 1px rgba (199, 199, 199, 0.55) inset, 0 2px 4px 2px rgba (255,255, 255, 0.83) inset ;
+-moz-box-shadow :
+0 2px 4px 0 rgba (72, 72, 72, 0.83), 0 10px 15px 0 rgba (126,126, 126, 0.12), 0 -2px 6px 1px rgba (199, 199, 199, 0.55) inset, 0 2px 4px 2px rgba (255,255, 255, 0.83) inset ;
+box-shadow :
+0 2px 4px 0 rgba (72, 72, 72, 0.83), 0 10px 15px 0 rgba (126,126, 126, 0.12), 0 -2px 6px 1px rgba (199, 199, 199, 0.55) inset, 0 2px 4px 2px rgba (255,255, 255, 0.83) inset ;
+}
+.search_1 {
+width: 520px ;
+height: 35px ;
+padding-left : 15px ;
+border-radius : 6px ;
+border: 1px solid grey ;
+color: black;
+font-weight : 500;
+background-color : #DEE4E7 ;
+-webkit-box-shadow :
+0 -2px 2px 0 rgba (199, 199, 199, 0.55), 0 1px 1px 0 #fff, 0 2px 2px 1px #fafafa, 0 2px 4px 0 #b2b2b2 inset, 0 -1px 1px 0 #f2f2f2 inset, 0 15px 15px 0 rgba (41, 41, 41, 0.09) inset ;
+-moz-box-shadow :
+0 -2px 2px 0 rgba (199, 199, 199, 0.55), 0 1px 1px 0 #fff, 0 2px 2px 1px #fafafa, 0 2px 4px 0 #b2b2b2 inset, 0 -1px 1px 0 #f2f2f2 inset, 0 15px 15px 0 rgba (41, 41, 41, 0.09) inset ;
+box-shadow :
+0 -2px 2px 0 rgba (199, 199, 199, 0.55), 0 1px 1px 0 #fff, 0 2px 2px 1px #fafafa, 0 2px 4px 0 #b2b2b2 inset, 0 -1px 1px 0 #f2f2f2 inset, 0 15px 15px 0 rgba (41, 41, 41, 0.09) inset ;
+}
+.submit_1 {
+width: 35px ;
+height: 20px ;
+background-image : url(img/search-btn.png) ;
+background-repeat : no-repeat;
+background-position : 17px 2px ;
+background-color : transparent;
+-webkit-background-size
+: 10px 10px ;
+background-size : 20px 20px;
+border: none ;
+cursor: pointer ;
+}
+.search_1:focus {
+outline : 0 ;
+}
+.shadowbox {
+	position:relative;
+	left: 35px;
+	border-radius: 5px;
+	margin:10px;
+float: left;
+  width: 23em;
+height: 7em;
+  border: 1px solid grey;
+  padding: 8px 10px 12px;
+  
+}
+.shadowbox2 {
+	position:relative;
+	right:35px;
+border-radius : 5px; 
+position: relative;
+align: justify;
+	text-align: left;
+	margin:10px;
+float: right;
+  width: 14em;
+height: 7em;
+  border: 1px solid grey;
+  padding: 8px 10px 12px;
+
+}
+
+
+
+.shadowbox3 {
+
+	position:relative;
+	left:35px;
+	border-radius: 5px;
+	margin:10px;
+float: left;
+  width: 23em;
+height: 6.2em;
+  border: 1px solid grey;
+  padding: 8px 10px  12px;
+
+}
+.shadowbox4 {
+	position:relative;
+	right: 35px;
+border-radius: 5px;
+ position: relative;
+overflow: none;
+line-spacing: none;
+	margin:10px;
+float: right;
+  width: 14em;
+height: 10em;
+  border: 1px solid grey;
+  
+  padding: 8px 10px 12px;
+  
+}
+
+#box
+{position: relative;
+left: 35px;
+margin: 10px;
+float: left;
+border: none;
+height: 7.5em;
+width: 23em;}
+
+.shadowbox5 {
+	position:relative;
+	right:35px;
+	border-radius:5px;
+	margin: 10px;
+float: right;
+  width: 14em;
+height: 4.5em;
+  border: 1px solid grey;
+  padding: 8px 10px 12px;
+font:black;
+  
+}
+
+#submit{font-size: 20px;
+position: relative;
+top: 4em;
+color:white;
+border-height: 30px;
+left: 12em;}
+
+.last
+{position:relative;
+top: 3.8em;
+left:1.2em;}
+
+.sett
+{position : relative;
+top: 360px;
+left: 1em;
+}
+
+a{
+	text-decoration: none;
+	position: relative;
+color: white;
+line-height: 0.9;}
+
+
+#set
+{position; relative;
+top: 900px;
+left: 2em;}
+
+#table3{
+position:relative;
+top: 2.5em;}
+
+td, tr {
+font-family: arial, verdana, sans-serif;
+}
+
+p1 { 
+font-family: arial, verdana, sans-serif;
+position: relative;
+left: 1em;
+top: 1em; 
+color: white;
+text-align: center;
+line-height; 0.7;}{}
+
+p{
+font-family: arial, verdana, sans-serif;
+}
+
+</style>
+
+
+</head>
+<body>
+<div id="outer-container"> 
+
+<div id="sidebar">
+
+<img style="padding-top: 2em; width: 100%; height: 10%;" src="https://2.bp.blogspot.com/-a2-kAKVUWqw/XIc_ZyaRI1I/AAAAAAAAD4Y/pg-TiPqpPVMWnOt-OC3BISvdVg2nQnVqgCPcBGAYYCw/s1600/20190312_055931_0001.png"/>
+
+<div class="last">
+
+<div> <img src="https://3.bp.blogspot.com/-zWpjyGiXD6s/XIcfgCXl2eI/AAAAAAAAD1U/zA6IGRRkax8BUK9hHZ39afFu8iWmcCF-ACPcBGAYYCw/s1600/edit-user-16.png" /> <a href=" ">Dashboard</a></div>
+
+<br></br>
+<div> <img style="color:lightgreen" src="https://2.bp.blogspot.com/-ThHJB_5d1e0/XIcfw1L8ykI/AAAAAAAAD1o/Qg8Q-dtXFP8l1fuxLns8soTGSYhGgpiyQCPcBGAYYCw/s1600/box-5-16.png" /> <a style="color:lightgreen" href="file:///storage/D25F-6AD2/DCIM/Sterling/index.html">Order</a></div>
+<br></br>
+<div> <img src="https://1.bp.blogspot.com/-0Cr6d9OrMAo/XIcf85sN2vI/AAAAAAAAD10/GRDYALSiEvk1K7X73gkRI2IWYokXcDYiACPcBGAYYCw/s1600/shopping-bag-2-16.png" /> <a href=" ">Product</a></div>
+<br></br>
+<div> <img src="https://4.bp.blogspot.com/-ixDeKumRHJ8/XIcgHgu65lI/AAAAAAAAD2A/wR4w4k0XCCI7l3NjrFfHllp0qONc-Qz3wCPcBGAYYCw/s1600/banknotes-16-1.png" /> <a href=" ">Payment</a></div>
+
+</div>
+
+<div class="sett">
+
+<div><img src="https://1.bp.blogspot.com/-myLWL718-lM/XIcgQcN9JvI/AAAAAAAAD2E/bSR8_yg2u4sKsrkWlOOBv9hdYgYewUhjACPcBGAYYCw/s1600/gear-16.png" /> <a href=" ">Setting</a></div>
+
+</div>
+
+
+</div >
+
+<div id="header" style="float:top">
+
+<table1>
+
+<colgroup span = "2" >
+<col width = "2000" >
+<col width = "180" >
+<col width = "180" >
+</colgroup>
+<tr>
+<td>
+<form class="searchbox_1 " action=" ">
+<input type ="search" class=" search_1 " placeholder="Search" />
+<button type =" submit" class =" submit_1 " value="
+search"> </button>
+</form >
+</td>
+<td><img src="https://4.bp.blogspot.com/-7yRehRcH_AU/XIdIRBzA2HI/AAAAAAAAD44/zSCVZ5mLTxMbw77cvjV0GP-EgShHGqQQQCPcBGAYYCw/s1600/IMG_20170403_082508.jpg" style="border-radius:50%; height:40px; width:40px; position: relative; left: 4em; top:1.3em;"  >
+</td>
+<td><p6 style="position:relative; left: 70px;">Mene Welo</p6></td>
+
+</tr>
+<table1>
+
+</div>
+
+<div id="article" >
+<div id="nav">
+<p>←order</p>
+<table> 
+
+<colgroup span = "4" >
+<col width = "80" >
+<col width = "240" >
+<col width = "65" >
+<col width = "100">
+</colgroup>
+<tr>
+<td style="font-size:20px; color:black;"><b>#00011</b></td>
+<td> September 11, 2018 at 3:04 pm</td>
+<td><div id= "schedule" >
+<form action="http://www.mysite.pageforform.asp"  method="post">
+<input type="submit"  
+style="background-color: #90ee90; line-height:12px; color: grey; position:static; border-radius:10px;"
+name="mark as read
+" value="   paid   ">
+</form>
+</div></td>
+<td><div id= "schedule" >
+<form action="http://www.mysite.pageforform.asp"  method="post">
+<input type="submit"  
+style="background-color:#FFE299; line-height:12px; color:grey; position:static; border-radius:10px;"
+name="mark as read
+" value=" schedule ">
+</form>
+</div></td></tr></table>
+
+
+
+
+
+
+<table>
+<colgroup span = "2">
+<col width= "100">
+<col width="370">
+</colgroup>
+<tr>
+<td><img src="https://3.bp.blogspot.com/-l8K0AbZoxo4/XIbfRd-PtFI/AAAAAAAADyk/9pcejqD_TUEkH3SwBrA9IS2fRejZaJyWACPcBGAYYCw/s1600/256-1.png"
+style="height: 20px; width: 20px;">
+
+print order</td>
+<td>
+
+<select name="dropdown" style="border:none; background-color:white;">
+<option value="Very Good" selected>more action</option>
+
+</select>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+<div class="shadowbox"> 
+<table>
+<colgroup span = "2">
+<col width= "430">
+<col width="370">
+</colgroup>
+<h4><b>Installation Date and Time</b></h4>
+<tr>
+<td>Date</td>
+<td>Time</td>
+</tr>
+<tr>
+<td style= "color:darkgreen; font-size:18px;"> 21st October, 2018
+</td>
+<td style= "color:green; font-size:18px;"> 12:30 pm </td>
+
+</tr>
+</table>
+</div>
+
+<div class="shadowbox2"> <p><b>Customer Information</b><p> 
+<dt style="line-height:0.8">
+<dl>Eleanor Ezimah</dl>
+<dl><a href=" " style="color:blue; position:static;">Eleanor@gmail.com</a></dl>
+<dl>+234 7018 8880</dl>
+</dt>
+
+</div>
+
+<div class="shadowbox3"> <center><table  style="position:relative; bottom: 2em;" id= "table3">
+
+<colgroup span = "3" >
+<col width = "480" >
+<col width = "180" >
+<col width = "180" >
+</colgroup>
+<tr>
+<td><b>Item</b></td>
+<td><b>Weight</b></td>
+<td><b>Quantity</b></td>
+</tr>
+<tr>
+<td> <img src = "https://1.bp.blogspot.com/-G1IffWst_u4/Wxbomw8ZRPI/AAAAAAAABMg/r00yAkYdDVgwoWXdC17LyYn0GkCezE9CgCPcBGAYYCw/s1600/images%252813%2529.jpg"
+style="height:22px; width:22px;">
+Ayyie Solar Energy
+</td>
+<td> 5.0 kg </td>
+<td>1</td>
+</tr>
+
+</table>
+</center>
+</div>
+
+<div class="shadowbox4"> <p><b>Address</b></p>
+<dt style="line-height: 0.4">
+<dl>Eleanor Ezimah </dl>
+<dl>sterling towers, 20 marina</dl>
+<dl>1000204 lagos</dl>
+<dl>nigeria</dl>
+<dl>0703128880</dl>
+</dt></div>
+
+<div id= "box">
+<form>
+<input type="checkbox" name="neverused" value="phone">Upload an audit report
+
+</form>
+<div id= "submit" >
+<form action="http://www.mysite.pageforform.asp"  method="post">
+<input type="submit"  
+style="background-color:darkgreen; height:20px; color:white;"
+name="mark as read
+" value="mark as installed">
+</form>
+</div>
+</div>
+
+<div class="shadowbox5"> <p><b>Notes</b></p> 
+<p>No notes from customers</p></div>
+
+</div >
+</ div>
+
+</div> 
+
+</body>
+
+
+
+</html>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-myLWL718-lM/XIcgQcN9JvI/AAAAAAAAD2E/bSR8_yg2u4sKsrkWlOOBv9hdYgYewUhjACPcBGAYYCw/s1600/gear-16.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="16" data-original-width="16" src="https://1.bp.blogspot.com/-myLWL718-lM/XIcgQcN9JvI/AAAAAAAAD2E/bSR8_yg2u4sKsrkWlOOBv9hdYgYewUhjACPcBGAYYCw/s1600/gear-16.png" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-ixDeKumRHJ8/XIcgHgu65lI/AAAAAAAAD2A/wR4w4k0XCCI7l3NjrFfHllp0qONc-Qz3wCPcBGAYYCw/s1600/banknotes-16-1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="16" data-original-width="16" src="https://4.bp.blogspot.com/-ixDeKumRHJ8/XIcgHgu65lI/AAAAAAAAD2A/wR4w4k0XCCI7l3NjrFfHllp0qONc-Qz3wCPcBGAYYCw/s1600/banknotes-16-1.png" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-0Cr6d9OrMAo/XIcf85sN2vI/AAAAAAAAD10/GRDYALSiEvk1K7X73gkRI2IWYokXcDYiACPcBGAYYCw/s1600/shopping-bag-2-16.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="16" data-original-width="16" src="https://1.bp.blogspot.com/-0Cr6d9OrMAo/XIcf85sN2vI/AAAAAAAAD10/GRDYALSiEvk1K7X73gkRI2IWYokXcDYiACPcBGAYYCw/s1600/shopping-bag-2-16.png" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-ThHJB_5d1e0/XIcfw1L8ykI/AAAAAAAAD1o/Qg8Q-dtXFP8l1fuxLns8soTGSYhGgpiyQCPcBGAYYCw/s1600/box-5-16.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="16" data-original-width="16" src="https://2.bp.blogspot.com/-ThHJB_5d1e0/XIcfw1L8ykI/AAAAAAAAD1o/Qg8Q-dtXFP8l1fuxLns8soTGSYhGgpiyQCPcBGAYYCw/s1600/box-5-16.png" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-zWpjyGiXD6s/XIcfgCXl2eI/AAAAAAAAD1U/zA6IGRRkax8BUK9hHZ39afFu8iWmcCF-ACPcBGAYYCw/s1600/edit-user-16.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="16" data-original-width="16" src="https://3.bp.blogspot.com/-zWpjyGiXD6s/XIcfgCXl2eI/AAAAAAAAD1U/zA6IGRRkax8BUK9hHZ39afFu8iWmcCF-ACPcBGAYYCw/s1600/edit-user-16.png" /></a></div>
+<br />
+
